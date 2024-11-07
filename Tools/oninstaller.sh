@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Repository Section
 REPO="https://github.com/Nor-darkstar/EasyOMZ.git"
