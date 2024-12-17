@@ -13,10 +13,10 @@ PLUG_DIR="zsh/oh-my-zsh/plugins"
 CST_DIR="zsh/oh-my-zsh/custom"
 
 # Extraxtions
-tar -xvf Plugins/Plugins.tar.xz -C $PLUG_DIR
-tar -xvf Plugins/Additional-plugins.tar.xz -C $CST_DIR/plugins
-tar -xvf Themes/powerlevel10k.tar.xz -C $CST_DIR/themes
-tar -xvf 'Fonts/MesloLGS NF.tar.xz' -C $DEST_DIR/.local/share/fonts
+tar -xvf "Plugins/Plugins.tar.xz" -C $PLUG_DIR
+tar -xvf "Plugins/Additional-plugins.tar.xz" -C $CST_DIR/plugins
+tar -xvf "Themes/powerlevel10k.tar.xz" -C $CST_DIR/themes
+tar -xvf "Fonts/MesloLGS NF.tar.xz" -C $DEST_DIR/.local/share/fonts
 # Copy Pasting
 if [ -d "$CONF_DIR/zsh" ]; then
   rm -rf "$CONF_DIR/zsh"
