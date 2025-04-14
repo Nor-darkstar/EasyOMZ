@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Repository Section
-REPO="https://github.com/Nor-darkstar/EasyOMZ.git"
-R_PATH="/var/tmp/EasyOMZ"
+REPO="https://github.com/Nor-darkstar/zsh-config.git"
+R_PATH="/var/tmp/zsh-config"
 git clone $REPO $R_PATH &&
 cd $R_PATH
 # Paths Section
